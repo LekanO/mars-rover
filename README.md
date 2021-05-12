@@ -3,11 +3,10 @@
 ### Quick start
 Node.js latest version
 
-	> npm install
+	npm install
 
-###Testing
-
-	> npm test
+### Testing
+	npm test
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 This plateau, which is curiously rectangular, must be navigated by the rovers so that their on board cameras can get a complete
@@ -36,7 +35,8 @@ moving.
 
 **Output:**
 The output for each rover should be its final co-ordinates and heading.
-Test Input:
+
+**Test Input:**
 
 5 5
 
@@ -49,11 +49,16 @@ LMLMLMLMM
 MMRMMRMRRM
 
 Expected Output:
-1 3 N <br />
-5 1
+
+1 3 N
+
+5 1 E
 
 ### Solution
+JavaScript
+
+**Framework**
 Jest Testing Framework
 
 **Module**
-I created a module to navigate and position of the Mars Rover respectively to the co-ordinates and heading
+I created a module to navigate and position the Mars Rover respectively to the co-ordinates and heading
