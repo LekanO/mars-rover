@@ -1,14 +1,13 @@
-# Quick start
+# Mars Rover Code Challenge TDD
+
+### Quick start
 Node.js latest version
 
-> npm install
+	> npm install
 
-#Testing
-> npm test
+###Testing
 
-# Mars Rover Code Challenge
-
-**Mars Rover Challenge TDD **
+	> npm test
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 This plateau, which is curiously rectangular, must be navigated by the rovers so that their on board cameras can get a complete
@@ -25,7 +24,7 @@ degrees left or right respectively, without moving from its current spot.
 'M' means move forward one grid point, and maintain the same heading.
 Assume that the square directly North from (x, y) is (x, y+1).
 
-**Input: **
+**Input:**
 The first line of input is the upper-right coordinates of the plateau, the lower-left coordinates are assumed to be 0,0.
 The rest of the input is information pertaining to the rovers that have been deployed. Each rover has two lines of input. The first line
 gives the
@@ -35,7 +34,7 @@ orientation.
 Each rover will be finished sequentially, which means that the second rover won't start to move until the first one has finished
 moving.
 
-** Output: **
+**Output:**
 The output for each rover should be its final co-ordinates and heading.
 Test Input:
 5 5
