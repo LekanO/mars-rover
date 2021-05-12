@@ -35,19 +35,19 @@ Each rover will be finished sequentially, which means that the second rover won'
 moving.
 
 **Output:**
-The output for each rover should be its final co-ordinates and heading.
-Test Input:
-5 5
-1 2 N
-LMLMLMLMM
-3 3 E
-MMRMMRMRRM
-Expected Output:
-1 3 N
-5 1 
+The output for each rover should be its final co-ordinates and heading. \\
+Test Input: \\
+5 5 \\
+1 2 N \\
+LMLMLMLMM \\
+3 3 E \\
+MMRMMRMRRM \\
+Expected Output: \\
+1 3 N\
+5 1 \\
 
-#Solution
+### Solution
 Jest Testing Framework
 
-** Module **
+**Module**
 I created a module to navigate and position of the Mars Rover respectively to the co-ordinates and heading
